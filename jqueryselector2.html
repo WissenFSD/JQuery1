@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $(".red").click(function(){
+                $("div").css("background-color","red");
+
+            });
+            $(".pink").click(function(){
+                $("div").css("background-color","deeppink");
+
+            });
+            $(".yellow").click(function(){
+                $("div").css("background-color","yellow");
+
+            });
+            $(".black").click(function(){
+                $("div").css("background-color","black");
+
+            });
+
+
+        });
+    </script>
+</head>
+<body>
+    
+<button class="yellow">Sarı</button>
+<button class="red">Kırmızı</button>
+<button class="pink">Pembe</button>
+<button class="black">Siyah</button>
+<div style="height: 400px;width: 400px;margin-top: 30px;"></div>
+</body>
+</html>
